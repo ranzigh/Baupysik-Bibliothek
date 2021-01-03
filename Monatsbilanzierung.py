@@ -208,10 +208,10 @@ class Monatsbilanz():
         monatsbilanzierung = pd.DataFrame(columns=["Jan", "Feb", "Mrz", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", 
                                    "Okt", "Nov", "Dez"])
         monatsbilanzierung.loc["Tage_pro_Monat"] = [31,28,31,30,31,30,31,31,30,31,30,31]
-        Referenzklima_Potsdam = pd.read_csv("Referenzklima_Potsdam.csv")
+        Referenzklima_Potsdam = pd.read_csv("Daten/Referenzklima_Potsdam.csv")
         mittl_temp = Referenzklima_Potsdam.to_numpy().reshape(-1)
         monatsbilanzierung.loc["Mittl.Außentemp."] = mittl_temp
-        strahlungsangebot = pd.read_csv("Strahlungsangebot_Potsdam.csv",index_col="Ausrichtung")
+        strahlungsangebot = pd.read_csv("Daten/Strahlungsangebot_Potsdam.csv",index_col="Ausrichtung")
 		# 5 W/m² interne Wärmegewinne
         monatsbilanzierung.loc["Interne_Gewinne"] = (5*24*monatsbilanzierung.loc["Tage_pro_Monat"]*nutzfläche)/1000
 
