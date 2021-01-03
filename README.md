@@ -6,4 +6,4 @@ Mit der derzeitigen Version ist es schon möglich, den Heizwärmebedarf zu besti
 
 Heiztage sind auch noch nicht enthalten. 
 
-Zu dem Heizwärmebedarf kann noch der Warmwasserbedarf addiert werden (12,5 kwh/m² Nutzfläche). Das schwierige, was zu einen vollständigen Bilanz zur GEG Berechnung hier noch fehlt ist die ep Berechnung. Falls jemand die Formeln dazu hat, nehme ich gerne :)
+Zu dem Heizwärmebedarf kann noch der Warmwasserbedarf addiert werden (12,5 kwh/m² Nutzfläche). Das schwierige, was zu einer vollständigen Bilanz zur GEG Berechnung hier noch fehlt ist die ep Berechnung. Falls jemand die Formeln dazu hat, nehme ich gerne :)
