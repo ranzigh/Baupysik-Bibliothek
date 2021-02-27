@@ -29,6 +29,9 @@ Mit diesem Modul soll es möglich sein, Entscheidungshilfen zur Wahl des Wärmee
 
 ### Benutzung
 
+![wärmeerzeuger](https://user-images.githubusercontent.com/72806562/109392575-29f70880-791d-11eb-9381-9ca23aed8633.png)
+
+
 
 ## Sommerlicher Wärmeschutz nach DIN 4108-2
 
