@@ -11,8 +11,15 @@ Heiztage sind auch noch nicht enthalten.
 Zu dem Heizwärmebedarf kann noch der Warmwasserbedarf addiert werden (12,5 kwh/m² Nutzfläche). Das schwierige, was zu einer vollständigen Bilanz zur GEG Berechnung hier noch fehlt ist die ep Berechnung. Falls jemand die Formeln dazu hat, nehme ich gerne :)
 
 
-# Wärmeerzeuger wählen
+## Wärmeerzeuger wählen
 
 
 
-# Sommerlicher Wärmeschutz nach DIN 4108-2
+## Sommerlicher Wärmeschutz nach DIN 4108-2
+
+### Zweck
+
+
+
+### Benutzung
+
