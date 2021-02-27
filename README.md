@@ -2,7 +2,7 @@
 
 *** This project is in german, because the laws on energy efficiency this is referring to only apply to Germany ***
 
-# Monatsbilanz zum Heizwärmebedarf nach 4108
+## Monatsbilanz zum Heizwärmebedarf nach 4108
 
 Mit der derzeitigen Version ist es schon möglich, den Heizwärmebedarf zu bestimmen. Der ist aber dann noch nicht ganz korrekt, weil die Nachtabschaltung noch nicht enthalten ist. Der berechnete Wert wird also höher sein, als der tatsächliche nach 4108. 
 
