@@ -17,8 +17,8 @@ Dadurch, dass Fenster deutlich niedrigere U-Werte haben aber gleichzeitig solare
 
 ![gesamt](https://user-images.githubusercontent.com/72806562/109390911-adf8c280-7914-11eb-9ab2-10f9ae8b1693.png)
 
-Für Süden ist die Antwort klar: umso mehr Fensterfläche, desto besser.
-Für Ost- und West hält es sich die Waage.
+Für Süden ist die Antwort klar: je mehr Fensterfläche diese Ausrichtung hat, desto niedriger ist der gesamte Energiebedarf.
+Für Ost- und West hält es sich grob die Waage. 
 Im Norden ist es aus Energieeffizienz-Aspekten tendenziell sinnvoller, die Fensterfläche zu reduzieren.
 
 
