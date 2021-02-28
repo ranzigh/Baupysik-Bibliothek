@@ -1,4 +1,3 @@
-![wärmeerzeuger](https://user-images.githubusercontent.com/72806562/109416641-d093e580-79bf-11eb-8385-c4f7542591ad.png)
 # Energieeffizienz für Gebäude
 
 *** This project is in german, because the laws on energy efficiency this is referring to only apply to Germany ***
