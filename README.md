@@ -34,7 +34,7 @@ Energiekosten für Gas, Elektrizität und Pellets sind leicht zu recherchieren. 
 
 Wenn die Investkosten nicht mit berücksichtigt werden, zeigt sich deutlich der Wert einer PV-Anlage bei Strom-betriebenen Wärmeerzeugern. Hierbei wurden einige Annahmen getroffen, z.B. bezüglich des Autarkiegrades, der CO2 Steuer nach 2025 und der Größe und dem Ertrag der PV-Anlage. Wenn hier noch größere Autarkiegrade erreicht werden können mit größeren PV-Anlagen, kann vielleicht auch die Betrachtung inklusive Investkosten zugunsten der Wärmepumpen wechseln.
 
-![geldpromonat](https://user-images.githubusercontent.com/72806562/109416647-da1d4d80-79bf-11eb-83bd-c8ab471c055e.png)
+![geldpromonat](https://user-images.githubusercontent.com/72806562/109416930-8c094980-79c1-11eb-988e-996974b0e44b.png)
 
 Bei der Betrachtung des Treibhausgasausstoßes ist für fossile Wärmeerzeuger kein Land in Sicht. Zwar wurden die "realen" CO2-Emissionsfaktoren (mit 475 g CO2 pro kWh) verwendet gegenüber denen des GEG's (mit 560 g CO2 pro kWh), aber es ist sogar zu erwarten, dass der reale Emissionsfaktor mit Ausbau der erneuerbaren Energien noch weiter sinkt. Dass der Emissionsfaktor im GEG so hoch ist, wirft für mich große Fragen auf, etwa welche Rolle die Gas-Lobby bei der Vergabe der Faktoren gespielt hat. 
 
