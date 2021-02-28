@@ -2,7 +2,7 @@
 
 *** This project is in german, because the laws on energy efficiency this is referring to only apply to Germany ***
 
-## Monatsbilanz zum Heizwärmebedarf nach 4108
+## Monatsbilanz zum Heizwärmebedarf nach DIN 4108-2
 
 ### Zweck
 Diese in Python programmierte Berechnung des Transmissionswärmeverlusts und des Heizwärmebedarfs soll es ermöglichen, Energieeffizienzberatung für Machine Learning und Data Science Anwendungen verfügbar zu machen. 
@@ -36,8 +36,10 @@ Mit diesem Modul soll es möglich sein, Entscheidungshilfen zur Wahl des Wärmee
 ## Sommerlicher Wärmeschutz nach DIN 4108-2
 
 ### Zweck
-Die Berechnung zum sommerlichen Wärmeschutz im vereinfachten Verfahren nach DIN 4108-2 ist nicht allzu kompliziert. Die Softwareumsetzung der gängigen 
-
+Die Berechnung zum sommerlichen Wärmeschutz im vereinfachten Verfahren nach DIN 4108-2 ist nicht allzu kompliziert. Die Softwareumsetzung der gängigen Anbieter ist meiner persönlichen Erfahrung nach aber umständlich. Hiermit strebe ich eine Möglichkeit an, den SWS-Nachweis schnell umzusetzen.
+In Zukunft könnten gleich mehrere Listen mit den gleichen Räumen ausgegeben werden, die verschiedene Wege aufzeigen, die Anforderungen einzuhalten.
 
 ### Benutzung
-
+Es werden Fensterobjekte erzeugt, die beliebig oft an ein Raum-Objekt übergeben werden können. Den Fenstern müssen die Attribute Breite und Höhe übergeben werden. Die restlichen Attribute Orientierung, Neigung, g-Wert, Fc-Wert und Fs-Wert sind optional. 
+Ein Objekt Raum muss bei der Erzeugung eine beliebige Anzahl an Fenstern, einen Namen und eine Raumfläche übergeben bekommen. Attribute wie Nutzung (Standard Wohnen), Nachtlüftung (Standard erhöht), Klimazone (Standard B), Bauart (Standard mittel) und Passivkühlung (Standard keine) können optional übergeben werden.
+Nach Erzeugung des Fensters und eines Raums, kann mit ObjektnameRaum.Nachweis() der Nachweis erfolgen. Derzeit wird das Ergebnis noch in der Console ausgegeben.
