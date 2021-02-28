@@ -1,3 +1,4 @@
+![wärmeerzeuger](https://user-images.githubusercontent.com/72806562/109416641-d093e580-79bf-11eb-8385-c4f7542591ad.png)
 # Energieeffizienz für Gebäude
 
 *** This project is in german, because the laws on energy efficiency this is referring to only apply to Germany ***
@@ -32,6 +33,13 @@ Energiekosten für Gas, Elektrizität und Pellets sind leicht zu recherchieren. 
 
 ![wärmeerzeuger](https://user-images.githubusercontent.com/72806562/109392575-29f70880-791d-11eb-9381-9ca23aed8633.png)
 
+Wenn die Investkosten nicht mit berücksichtigt werden, zeigt sich deutlich der Wert einer PV-Anlage bei Strom-betriebenen Wärmeerzeugern. Hierbei wurden einige Annahmen getroffen, z.B. bezüglich des Autarkiegrades, der CO2 Steuer nach 2025 und der Größe und dem Ertrag der PV-Anlage. Wenn hier noch größere Autarkiegrade erreicht werden können mit größeren PV-Anlagen, kann vielleicht auch die Betrachtung inklusive Investkosten zugunsten der Wärmepumpen wechseln.
+
+![geldpromonat](https://user-images.githubusercontent.com/72806562/109416647-da1d4d80-79bf-11eb-83bd-c8ab471c055e.png)
+
+Bei der Betrachtung des Treibhausgasausstoßes ist für fossile Wärmeerzeuger kein Land in Sicht. Zwar wurden die "realen" CO2-Emissionsfaktoren (mit 475 g CO2 pro kWh) verwendet gegenüber denen des GEG's (mit 560 g CO2 pro kWh), aber es ist sogar zu erwarten, dass der reale Emissionsfaktor mit Ausbau der erneuerbaren Energien noch weiter sinkt. Dass der Emissionsfaktor im GEG so hoch ist, wirft für mich große Fragen auf, etwa welche Rolle die Gas-Lobby bei der Vergabe der Faktoren gespielt hat. 
+
+![co2](https://user-images.githubusercontent.com/72806562/109416650-dd183e00-79bf-11eb-8274-3114e02a5fc6.png)
 
 
 ## Sommerlicher Wärmeschutz nach DIN 4108-2
