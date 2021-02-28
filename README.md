@@ -28,6 +28,7 @@ Im Norden ist es aus Energieeffizienz-Aspekten tendenziell sinnvoller, die Fenst
 Mit diesem Modul soll es möglich sein, Entscheidungshilfen zur Wahl des Wärmeerzeugers für Gebäude zu erstellen. Dazu werden quantitative Aspekte betrachtet. Qualitative und subjektive Aspekte wie die Lärmemission einer Luft-Wasser-Wärmepumpe können natürlich nicht berücksichtigt werden.
 
 ### Benutzung
+Energiekosten für Gas, Elektrizität und Pellets sind leicht zu recherchieren. Preise für Wärmeerzeuger sind dagegen sehr individuell, abhängig vom jeweiligen Installateur, dessen Leistung hier auch mit berücksichtigt werden sollte. Dazu skaliert der Preis unregelmäßig mit der Größe und Leistung. Ein Kessel mit der zehnfachen Leistung kostet nicht zehnmal so viel. Aber es gibt keine Faustregel, nach der es sich hier richten lässt und keinen Katalog, aus dem sich Werte entnehmen lassen. Um eine finanzielle Einschätzung abzugeben, muss für jedes Projekt individuell erkundet werden.
 
 ![wärmeerzeuger](https://user-images.githubusercontent.com/72806562/109392575-29f70880-791d-11eb-9381-9ca23aed8633.png)
 
