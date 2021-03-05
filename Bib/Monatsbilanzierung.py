@@ -19,12 +19,12 @@ class R_Wert:
 #_____________________________________________________________________________
 
 class U_Wert:
-    def __init__(self, *args, frsi=0.17, frse=0.04):
+    def __init__(self, *args, rsi=0.17, rse=0.04):
         self.args = args
-        self.frsi = frsi
-        self.frse = frse
+        self.frsi = rsi
+        self.frse = rse
     def U_berechnen(self):
-        Rges = self.frsi + self.frse
+        Rges = self.rsi + self.rse
         for i in range(len(self.args)):
             Rges = Rges + self.args[i].R_berechnen()
         U = 1/Rges
