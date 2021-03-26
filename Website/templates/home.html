@@ -1,0 +1,58 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- _________________________________________________________-->
+
+
+<section class="section information">
+	<div class="container">
+		<div class="columns is-desktop">
+			<div class="column"> 
+				<img src="{{url_for('static', filename='Analyse.png')}}">
+			</div>
+			<div class="column">
+				<h1><strong>Nachweisführung nach DIN 18599-2018</strong></h1>
+				<p> Für Wohn- und Nichtwohngebäude können nachweise nach DIN 4108/4701 und 18599-2018 erstellt werden. Um für den Bauherren die beste Kombinationen aus Bauteilen zu ermitteln wird ein vorab automatisch ein Energiekonzept erstellt.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="section information">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<h3><strong>Kostenvergleich</strong> </h3>
+				<p>Beim Kostenvergleich von Wärmeerzeugern werden Invest-, Wartungs- sowie Brennstoffkosten berücksichtigt. Die kontinuierlich steigende CO2-Steuer fließt dabei in die Brennstoffkosten ein. Wohnraumverluste bei steigender Dämmstärke und Lebensdauer werden derzeit noch nicht berücksichtigt. </p>				
+			</div>
+			<div class="column"> 
+				<img src="{{url_for('static', filename='Wärmeerzeuger_Kosten.png')}}">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section information">
+	<div class="container">
+		<div class="columns is-desktop">
+			<div class="column"> 
+				<img src="{{url_for('static', filename='Wärmeerzeuger_CO2.png')}}">
+			</div>
+			<div class="column">
+				<h3><strong>Bewertung der CO2-Bilanz</strong> </h3>
+				<p> Fossile und erneuerbare Brennstoffe und dazugehörige Wärmeerzeuger können verglichen werden. Photovoltaik kann die Bilanz verbessern. Eine Verbesserung des Strom-Mix ist zu erwarten und wird berücksichtigt.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- _________________________________________________________-->
+{% endblock content %}
+
+
+

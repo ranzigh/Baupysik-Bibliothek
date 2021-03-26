@@ -1,0 +1,57 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!-- _________________________________________________________-->
+
+<div class="columns">
+	<div class="column is-one-third">
+		<aside class="menu">
+		  <p class="menu-label">
+		    Übersicht
+		  </p>
+		  <ul class="menu-list">
+		    <li><a class="is-active has-background-dark">Dashboard</a></li>
+		    <li><a>Aktive Projekte</a></li>
+		  </ul>
+		  <p class="menu-label">
+		    Bilanzierung
+		  </p>
+		  <ul class="menu-list">
+		    <li><a>Allgemeine Projektinformationen</a></li>
+		    <li>
+		      <a>Hülle</a>
+		      	<ul>
+			        <li><a href="#">Bauteilliste und U-Werte</a></li>
+			        <li><a href="#">Parameter</a></li>
+		    	</ul>
+		    </li>
+		    <li><a>Anlagentechnik</a>
+		    	<ul>
+		    		<li><a href="#">Heizung</a></li>
+		    		<li><a href="#">Warmwasser</a></li>
+		    		<li><a href="#">Lüftung</a></li>
+		    		<li><a href="#">Kühlung</a></li>
+		    	</ul></li>
+		  </ul>
+		  <p class="menu-label">
+		    Ergebnisse
+		  </p>
+		  <ul class="menu-list">
+		    <li><a>Gebäudeenergiegesetz</a></li>
+		    <li><a>Kostenanalyse</a></li>
+		    <li><a>Klimabilanz</a></li>
+		  </ul>
+		</aside>
+	</div>
+	<div class="column">
+		<img src="{{ url_for }}">
+	</div>
+</div>
+	
+
+
+<!-- _________________________________________________________-->
+
+{% endblock content %}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <!--  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='EO.ico') }}">
+
+    {% if title %}
+      <title>EO - {{title}}</title>
+    {% else %}
+      <title>Energieberater Online</title>
+    {% endif %}
+
+
+</head>
+<!-- _________________________ HEADER_______________________________________________________________-->
+
+
+<body>
+
+  <nav class="navbar has-background-dark is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+
+      <a class="navbar-item" href="localhost:5000/#">
+        <img src="{{url_for('static', filename='EO.png')}}" height="#" width="#">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item has-text-light" href="http://127.0.0.1:5000/home">Startseite</a>
+        <a class="navbar-item  has-text-light" href="http://127.0.0.1:5000/neuigkeiten">Neuigkeiten</a>
+        <a class="navbar-item  has-text-light" href="{{ url_for('bilanz')}}">Bilanz</a>
+        <a class="navbar-item  has-text-light" href="http://127.0.0.1:5000/preise">Preise</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link has-text-light">Mehr</a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item has-text-dark" href="http://127.0.0.1:5000/kontakt">
+              Kontakt
+            </a>
+            <a class="navbar-item has-text-dark" href="http://127.0.0.1:5000/jobs">
+              Jobs
+            </a>
+            <a class="navbar-item has-text-dark" href="http://127.0.0.1:5000/kontakt">
+              Kontakt              
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-light" href="{{ url_for('registrieren') }}">
+              <strong>Registrieren</strong>
+            </a>
+            <a class="button is-light" href="{{ url_for('login') }}">
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- _________________________________CONTENT______________________________________________________-->
+
+<section class="section">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="notification is-{{ category }}">
+          {{message}}
+        </div>
+      {% endfor%}
+    {% endif %}
+  {% endwith %}
+
+  {% block content %}{% endblock %}
+</section>
+
+
+<!-- ____________________________ FOOTER_________________________________________________________-->
+
+    <!-- Footer -->
+<footer class="footer has-background-dark">
+  <div class="container has-text has-text-light">
+    <div class="columns">
+      <div class="column is-hidden-mobile">
+        Kontakt
+        <br> 0160 xxx xxx xxx
+        <br> email@mail.de
+      </div>
+
+      <div class="column">
+        <strong class="has-text-light">Start</strong>
+        <ul>
+          <li><a href="http://127.0.0.1:5000/login" class="has-text-light">Login</a></li>
+          <li><a href="http://127.0.0.1:5000/registrieren" class="has-text-light">Registrieren</a></li>
+          <li><a href="http://127.0.0.1:5000/kontakt" class="has-text-light">Info</a></li>
+          <li><a href="http://127.0.0.1:5000/neuigkeiten" class="has-text-light">Neuigkeiten</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <strong class="has-text-light">Unternehmen</strong>
+        <ul>
+          <li> <a href="http://127.0.0.1:5000/kontakt" class="has-text-light">Kontakt</a></li>
+          <li> <a href="http://127.0.0.1:5000/kontakt" class="has-text-light">AGB</a></li>
+          <li> <a href="http://127.0.0.1:5000/kontakt" class="has-text-light">Datenschutz</a></li>
+          <li> <a href="http://127.0.0.1:5000/kontakt" class="has-text-light">Impressum</a></li>
+        </ul>
+      </div>
+    </div>    
+  </div>
+</footer>
+
+
+<!-- _____________________________________________________________________________________________-->
+
+
+</body>
+
+</html>
