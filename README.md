@@ -54,3 +54,7 @@ In Zukunft könnten gleich mehrere Listen mit den gleichen Räumen ausgegeben we
 Es werden Fensterobjekte erzeugt, die beliebig oft an ein Raum-Objekt übergeben werden können. Den Fenstern müssen die Attribute Breite und Höhe übergeben werden. Die restlichen Attribute Orientierung, Neigung, g-Wert, Fc-Wert und Fs-Wert sind optional. 
 Ein Objekt Raum muss bei der Erzeugung eine beliebige Anzahl an Fenstern, einen Namen und eine Raumfläche übergeben bekommen. Attribute wie Nutzung (Standard Wohnen), Nachtlüftung (Standard erhöht), Klimazone (Standard B), Bauart (Standard mittel) und Passivkühlung (Standard keine) können optional übergeben werden.
 Nach Erzeugung des Fensters und eines Raums, kann mit ObjektnameRaum.Nachweis() der Nachweis erfolgen. Derzeit wird das Ergebnis noch in der Console ausgegeben.
+
+## Website
+
+Das ist nebenbei ein Spaß-Projekt. Der Gedanke ist es, die ganzen Funktionen auf einem Webserver anzubieten. Das Backend ist mit Flask geschrieben. 
