@@ -58,3 +58,8 @@ Nach Erzeugung des Fensters und eines Raums, kann mit ObjektnameRaum.Nachweis() 
 ## Website
 
 Das ist nebenbei ein Spaß-Projekt. Der Gedanke ist es, die ganzen Funktionen auf einem Webserver anzubieten. Das Backend ist mit Flask geschrieben. 
+
+![website](https://user-images.githubusercontent.com/72806562/112624372-dc8f8d80-8e2d-11eb-9293-e7532786e3d0.JPG)
+
+![dashboard](https://user-images.githubusercontent.com/72806562/112624394-e1ecd800-8e2d-11eb-9b29-c8ff6f281f9a.JPG)
+
